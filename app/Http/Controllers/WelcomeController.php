@@ -13,6 +13,6 @@ class WelcomeController extends Controller
      */
     public function index(): View
     {
-        return view('template/welcome');
+        return view('welcome/index');
     }
 }
